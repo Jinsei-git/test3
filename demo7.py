@@ -116,4 +116,5 @@ for idx, e in enumerate(st.session_state.events):
         if st.button("削除", key=f"delete_{idx}"):
             st.session_state.events.pop(idx)
             st.success(f"{e['title']} を削除しました。")
-            st.experimental_rerun()
+            st.rerun()
+            
