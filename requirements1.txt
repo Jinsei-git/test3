@@ -1,4 +1,5 @@
 streamlit>=1.28
 st-gsheets-connection
 pandas
-streamlit_gsheets_connection
+gspread
+google-auth
