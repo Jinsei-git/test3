@@ -1,5 +1,5 @@
 import streamlit as st
-from streamlit_gsheets import GSheetsConnection
+from st-gsheets-connection import GSheetsConnection
 
 conn = st.connection("gsheets", type=GSheetsConnection)
 df = conn.read()
